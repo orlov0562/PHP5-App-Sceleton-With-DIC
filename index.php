@@ -45,7 +45,6 @@
         public function __set($var, $val)
         {
             $this->store[$var] = $val;
-
         }
     }
 
