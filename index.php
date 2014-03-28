@@ -28,7 +28,9 @@
             $this->framework = $instance;
         }
     }
-
+    
+    // --------------------------------------
+    
     class Registry extends ClassFactory
     {
         private $store = array();
